@@ -1,0 +1,227 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid red; */
+  }
+  .main{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1770&amp;q=80');
+    background-position: center 45%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 4.3rem;
+    /* border: 0.5px solid transparent; */
+  }
+  .txt{
+    width: 35%;
+    margin-left: 4.5rem;
+    margin-top: 4.6rem;
+    /* border: 2px solid red; */
+  }
+  .fontt{
+    text-align: center;
+    font-size: 3.5rem;
+    /* border: 2px solid red; */
+  }
+  .mid{
+    font-size: 3.3rem;
+    padding-left: -20px;
+    color: rgb(190,18,60);
+    text-align: center;
+    /* border: 1px solid red; */
+  }
+  .para{
+    width: 35%;
+    margin-left: 5.5rem;
+    padding-left: 3px;
+    font-weight: 600;
+    font-size: 17px;
+    /* border: 2px solid red; */
+  }
+  .left{
+    width: 13%;
+    height: 10%;
+    color: white;
+    background-color: rgb(225,29,72);
+    border: none;
+    border-radius: 5px;
+    margin-left: 2.5rem;
+    margin-top: 1.9rem;
+    cursor: pointer;
+  }
+  .left:hover{
+    background-color: rgb(180, 24, 58);
+  }
+  
+  .leftt{
+    width: 13%;
+    height: 10%;
+    margin-left: 13px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .leftt:hover{
+    color:  rgb(180, 24, 58);
+  }
+  
+  .secMain{
+    width: 100%;
+    height: 110%;
+    display: flex;
+    /* border: 2px solid red; */
+  }
+  
+  .image{
+    width: 48%;
+    height: 70%;
+    margin-top: 8rem;
+    margin-left: 2rem;
+    position: absolute;
+    /* border: 1px solid red; */
+  }
+  .image img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .another{
+    width: 52%;
+    height: 85%;
+    margin-left: 36rem;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(243,244,246);
+    /* border: 2px solid red; */
+  }
+  .mainTxxt{
+    width: 75%;
+    margin-left: 6rem;
+    /* border: 2px solid red; */
+  }
+  
+  .mainparagraph{
+    width: 75%;
+    margin-left: 6rem;
+    /* border: 2px solid red; */
+  }
+  .mainBtn{
+    width: 25%;
+    padding: 13px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-right: 14rem;
+    background-color: rgb(79,70,229);
+    cursor: pointer;
+  }
+  .mainBtn:hover{
+    background-color: transparent;
+    color: rgb(79,70,229);
+    border: 1px solid rgb(79,70,229);
+  }
+  
+
+  .CardContainer{
+    width: 96%;
+    height: 90%;
+    /* border: 2px solid black; */
+  }
+  .sixCards{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+    cursor: auto;
+    /* border: 2px solid red; */
+  }
+  .cardss{
+    width: 28%;
+    height: 50%;
+    background-color: rgb(249,250,251);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* border: 1px solid brown; */
+  }
+  .cardCenterPara{
+    width: 90%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(92,112,147);
+    margin-left: 20px;
+    /* border: 2px solid cyan; */
+  }
+  .cardss2{
+    width: 28%;
+    height: 40%;
+    background-color: rgb(249,250,251);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* border: 1px solid brown; */
+  }
+  .cardss3{
+    width: 28%;
+    height: 30%;
+    background-color: rgb(249,250,251);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* border: 1px solid brown; */
+  }
+  .cardss4{
+    width: 28%;
+    height: 30%;
+    background-color: rgb(249,250,251);
+    border-radius: 10px;
+    margin-top: 4rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* border: 1px solid brown; */
+  }
+  .cardss5{
+    width: 28%;
+    height: 25%;
+    background-color: rgb(249,250,251);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* border: 1px solid brown; */
+  }
+  .cardss6{
+    width: 28%;
+    height: 22%;
+    background-color: rgb(249,250,251);
+    border-radius: 10px;
+    margin-top: -2.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* border: 1px solid brown; */
+  }
+  .imagePara{
+    width: 100%;
+    height: 30%;
+    margin-top: 3rem;
+    border-radius: 10px;
+    display: flex;
+    /* border: 1px solid black; */
+  }
+  .imagee{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .cardHead{
+    margin-left: 1rem;
+    margin-top: -10px;
+    /* border: 1px solid brown; */
+  }
+  .lightSeo{
+    margin-top: -20px;
+    font-size: 14px;
+    color: rgb(92,112,147);
+  }

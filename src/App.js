@@ -1,22 +1,23 @@
 import React from 'react'
-import './App.css'
+import { createBrowserRouter ,RouterProvider} from 'react-router-dom'
 import Layout from './Component/Layout'
-import Home from './Component/Home'
-import Quote from './Component/Quote'
-import Resturants from './Component/Resturants'
-import Contact from './Component/Contact'
-import Foods from './Component/Foods'
+import Home from './Component/Home/Home'
+import Quote from './Component/Quote/Quote'
+import Resturant from './Component/Resturant/Resturant'
+import Foods from './Component/Foods/Foods'
+import Contact from './Component/Contact/Contact'
 
-import {createBrowserRouter , RouterProvider} from 'react-router-dom'
+
+
 
 const App = () => {
 
-  const routes = createBrowserRouter([
+  const routes = createBrowserRouter ([
     {
       path : '/',
-      element: <Layout />,
-      errorElement : <h1>404 Error Found</h1>,
-      children: [
+      element : <Layout />,
+      errorElement : <h1>Error 404</h1>,
+      children : [
         {
           path : '/',
           element : <Home />
@@ -26,8 +27,8 @@ const App = () => {
           element : <Quote />
         },
         {
-          path : '/Resturants',
-          element : <Resturants />
+          path : '/Resturant',
+          element : <Resturant />
         },
         {
           path : '/Foods',
@@ -44,6 +45,7 @@ const App = () => {
   return (
     <div>
       <RouterProvider router={routes} />
+      
     </div>
   )
 }
